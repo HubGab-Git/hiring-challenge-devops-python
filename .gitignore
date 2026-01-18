@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Docker
+*.pid
+
+# Local env files
+.env
+.env.*
+
+# Scripts tmp
+/tmp/
